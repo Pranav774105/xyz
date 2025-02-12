@@ -5,3 +5,4 @@ class Student(models.Model):
     roll = models.IntegerField()
     name = models.CharField(max_length=80)
     marks = models.FloatField()
+    age = models.IntegerField()
